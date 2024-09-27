@@ -1,0 +1,51 @@
+
+
+ion-content {
+    font-family: cursive;
+    background: #922909; /* Color de fondo personalizado */
+
+    /* Centrando el contenido */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Cambiar el color de los botones */
+ion-button {
+  font-family: cursive;
+    background: hsl(121, 100%, 52%); /* Color de fondo del botón */
+    color: #ffffff; /* Color de texto del botón */
+}
+
+/* Cambiar el color del texto de los ion-label y otros textos */
+ion-label {
+  font-family: cursive;
+    color: #333333; /* Color del texto del label */
+}
+
+ion-input {
+    font-family: cursive;
+    color: #ffffff; /* Color del texto de entrada */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+ion-title {
+    font-family: cursive;
+    color: #ffffff; /* Color del título */
+}
+
+/* Estilo del formulario para centrarlo */
+form {
+    font-family: cursive;
+    width: 100%;
+    max-width: 400px; /* Ancho máximo del formulario */
+    padding: 20px;
+    background-color: transparent; /* Fondo del formulario */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgb(0, 187, 255); /* Sombra */
+    position: relative;
+    left: 430px;
+    top: 30%;
+}
+
